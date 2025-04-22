@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import styled from 'styled-components';
 import Link from 'next/link';
 import FloatingElements from './FloatingElements';
+import ConstructionCard from './ConstructionCard';
 
 const projects = [
   {
@@ -11,18 +12,6 @@ const projects = [
     description: 'Développé en alternance, gestion de données, UI/UX, API, et base de données.',
     techs: ['Laravel', 'FilamentPHP', 'Multi-tenancy', 'Mollie'],
     link: '/projects/saas-fidelisation',
-  },
-  {
-    title: 'xxx',
-    description: 'xxx',
-    techs: ['xx', 'xx', 'x'],
-    link: '#',
-  },
-  {
-    title: 'xxx',
-    description: 'xxx',
-    techs: ['xx', 'xx', 'x'],
-    link: '#',
   },
 ];
 
@@ -159,9 +148,9 @@ const ProjectLink = styled(Link)`
 
 export default function Projects() {
   return (
-    <Section>
+    <Section id="projects">
       <FloatingElements variant="circles" />
-      <FloatingElements variant="squares" />
+      <FloatingElements variant="dots" />
       
       <ContentWrapper>
         <Heading
@@ -177,25 +166,26 @@ export default function Projects() {
           {projects.map((project, index) => (
             <ProjectCard
               key={index}
-              initial={{ opacity: 0, y: 40 }}
+              initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <ProjectTitle>{project.title}</ProjectTitle>
-              <ProjectDescription>{project.description}</ProjectDescription>
-              <TechList>
-                {project.techs.map((tech, i) => (
-                  <TechItem key={i}>
-                    {tech}
-                  </TechItem>
-                ))}
-              </TechList>
-              <ProjectLink href={project.link}>
+              {/* <Link href={project.link}> */}
+                <ProjectTitle>{project.title}</ProjectTitle>
+                <ProjectDescription>{project.description}</ProjectDescription>
+                <TechList>
+                  {project.techs.map((tech, techIndex) => (
+                    <TechItem key={techIndex}>{tech}</TechItem>
+                  ))}
+                </TechList>
+                <ProjectLink href={project.link}>
                 Voir le projet →
               </ProjectLink>
+              {/* </Link> */}
             </ProjectCard>
           ))}
+          <ConstructionCard />
         </ProjectGrid>
       </ContentWrapper>
     </Section>

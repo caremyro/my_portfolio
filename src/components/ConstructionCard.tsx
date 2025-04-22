@@ -120,9 +120,9 @@ export default function ConstructionCard() {
       <ProgressBar>
         <Progress
           initial={{ width: "0%" }}
-          animate={{ width: "60%" }}
+          animate={{ width: "100%" }}
           transition={{ 
-            duration: 2,
+            duration: 3,
             ease: "easeInOut",
             repeat: Infinity,
             repeatType: "reverse"
@@ -130,7 +130,7 @@ export default function ConstructionCard() {
         />
       </ProgressBar>
       
-      <Status>En cours de développement - 60%</Status>
+      <Status>En cours de développement...</Status>
     </Card>
   );
 } 
