@@ -1,1 +1,2 @@
-https://remygouhier.netlify.app/#projects
+https://remygouhier.netlify.app
+
