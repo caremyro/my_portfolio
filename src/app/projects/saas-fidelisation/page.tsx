@@ -288,7 +288,7 @@ export default function SaasProject() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          Développé pour Argelium - 2023
+          Développé pour Argelium - 2025
         </ProjectSubtitle>
         
         <ProjectDescription
