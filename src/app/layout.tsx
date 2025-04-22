@@ -1,6 +1,7 @@
 'use client';
 
 import { Inter } from 'next/font/google';
+import StyledComponentsRegistry from '@/lib/registry';
 import Navigation from '@/components/Navigation';
 import CustomCursor from '@/components/CustomCursor';
 import { createGlobalStyle } from 'styled-components';
@@ -63,10 +64,12 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className={inter.className}>
-        <GlobalStyle />
-        <CustomCursor />
-        <Navigation />
-        {children}
+        <StyledComponentsRegistry>
+          <GlobalStyle />
+          <CustomCursor />
+          <Navigation />
+          {children}
+        </StyledComponentsRegistry>
       </body>
     </html>
   );
