@@ -36,10 +36,9 @@ const Dot = styled(motion.div)`
 
 interface FloatingElementsProps {
   variant?: 'circles' | 'squares' | 'dots';
-  className?: string;
 }
 
-export default function FloatingElements({ variant = 'circles', className }: FloatingElementsProps) {
+export default function FloatingElements({ variant = 'circles' }: FloatingElementsProps) {
   if (variant === 'circles') {
     return (
       <>

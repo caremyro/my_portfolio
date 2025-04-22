@@ -297,9 +297,9 @@ export default function SaasProject() {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <p>
-            Ce logiciel SaaS permet aux entreprises clientes d'Argelium de fidéliser leurs propres clients 
+            Ce logiciel SaaS permet aux entreprises clientes d&apos;Argelium de fidéliser leurs propres clients 
             en proposant des abonnements et des programmes de fidélité automatisés. Chaque entreprise 
-            dispose de sa propre instance de l'application, isolée des autres, grâce à une architecture 
+            dispose de sa propre instance de l&apos;application, isolée des autres, grâce à une architecture 
             multi-tenant.
           </p>
           <p>
@@ -336,7 +336,7 @@ export default function SaasProject() {
             >
               <TechName>FilamentPHP</TechName>
               <TechDescription>
-                Plugin Laravel permettant de créer rapidement des interfaces d'administration 
+                Plugin Laravel permettant de créer rapidement des interfaces d&apos;administration 
                 avec des fonctionnalités CRUD avancées et une personnalisation poussée.
               </TechDescription>
             </TechCard>
@@ -349,8 +349,8 @@ export default function SaasProject() {
             >
               <TechName>Multi-tenancy</TechName>
               <TechDescription>
-                Architecture permettant à chaque client d'avoir sa propre instance isolée 
-                de l'application, avec des données et configurations spécifiques.
+                Architecture permettant à chaque client d&apos;avoir sa propre instance isolée 
+                de l&apos;application, avec des données et configurations spécifiques.
               </TechDescription>
             </TechCard>
             
@@ -381,7 +381,7 @@ export default function SaasProject() {
               Gestion des abonnements avec facturation automatique
             </FeatureItem>
             <FeatureItem variants={itemVariants}>
-              Interface d'administration personnalisée pour chaque client
+              Interface d&apos;administration personnalisée pour chaque client
             </FeatureItem>
             <FeatureItem variants={itemVariants}>
               Tableau de bord avec statistiques et KPIs
@@ -404,7 +404,7 @@ export default function SaasProject() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <ImageTitle>Captures d'écran</ImageTitle>
+          <ImageTitle>Captures d&apos;écran</ImageTitle>
           <ImageGrid>
             <ImageContainer
               initial={{ opacity: 0, scale: 0.9 }}
@@ -424,7 +424,7 @@ export default function SaasProject() {
                 <ImagePlaceholder>
                   <PlaceholderIcon>🖼️</PlaceholderIcon>
                   <PlaceholderText>
-                    Image en cours d'intégration<br />
+                    Image en cours d&apos;intégration<br />
                     Tableau de bord du SaaS
                   </PlaceholderText>
                 </ImagePlaceholder>
@@ -448,8 +448,8 @@ export default function SaasProject() {
                 <ImagePlaceholder>
                   <PlaceholderIcon>🖼️</PlaceholderIcon>
                   <PlaceholderText>
-                    Image en cours d'intégration<br />
-                    Interface d'administration
+                    Image en cours d&apos;intégration<br />
+                    Interface d&apos;administration
                   </PlaceholderText>
                 </ImagePlaceholder>
               )}

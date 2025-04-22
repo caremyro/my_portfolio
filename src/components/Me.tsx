@@ -135,7 +135,7 @@ export default function Me() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          Salut, moi c'est Rémy
+          Salut, moi c&apos;est Rémy
         </Heading>
 
         <SubHeading

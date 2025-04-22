@@ -239,7 +239,7 @@ export default function Contact() {
       });
       
       if (!response.ok) {
-        throw new Error('Erreur lors de l\'envoi du message');
+        throw new Error('Erreur l&apos;envoi du message');
       }
       
       setSubmitStatus('success');
@@ -273,7 +273,7 @@ export default function Contact() {
             viewport={{ once: true }}
           >
             <p style={{ fontSize: '1.125rem', lineHeight: '1.75' }}>
-              Un projet, une question, une opportunité ? N'hésite pas à m'envoyer un message ou me contacter sur les réseaux !
+              Un projet, une question, une opportunité ? N&apos;hésite pas à m&apos;envoyer un message ou me contacter sur les réseaux !
             </p>
             <SocialLinkList>
               <SocialLinkItem

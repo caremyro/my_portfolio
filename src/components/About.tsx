@@ -92,12 +92,12 @@ export default function About() {
           viewport={{ once: true }}
         >
           Je suis actuellement étudiant en 3e année de BUT Informatique, parcours développement
-          d'applications. Grâce à mon alternance, j'ai pu acquérir une solide expérience dans
-          la création d'un logiciel SaaS, en travaillant sur toutes les couches d'une application
+          d&apos;applications. Grâce à mon alternance, j&apos;ai pu acquérir une solide expérience dans
+          la création d&apos;un logiciel SaaS, en travaillant sur toutes les couches d&apos;une application
           web moderne.
           <br /><br />
-          Je m'intéresse particulièrement à la data et à l'intelligence artificielle, domaines dans
-          lesquels je souhaite me spécialiser en master dès l'année prochaine.
+          Je m&apos;intéresse particulièrement à la data et à l&apos;intelligence artificielle, domaines dans
+          lesquels je souhaite me spécialiser en master dès l&apos;année prochaine.
         </Paragraph>
       </ContentWrapper>
     </Section>
