@@ -8,6 +8,12 @@ import ConstructionCard from './ConstructionCard';
 
 const projects = [
   {
+    title: 'CRM de Prospection',
+    description: 'Solution de gestion de la relation client pour optimiser la prospection commerciale.',
+    techs: ['Laravel', 'FilamentPHP', 'MySQL', 'Bootstrap'],
+    link: '/projects/crm-argelium',
+  },
+  {
     title: 'Logiciel SaaS',
     description: 'Développé en alternance, gestion de données, UI/UX, API, et base de données.',
     techs: ['Laravel', 'FilamentPHP', 'Multi-tenancy', 'Mollie'],

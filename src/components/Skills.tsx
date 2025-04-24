@@ -3,12 +3,14 @@
 import { motion } from 'framer-motion';
 import styled from 'styled-components';
 import FloatingElements from './FloatingElements';
+import { Languages } from 'lucide-react';
 
 const skills = {
   dev: ['Laravel', 'React', 'Tailwind CSS', 'Next.js', 'Symfony'],
   data: ['Python', 'Pandas', 'NumPy', 'PostgreSQL', 'Firebase'],
   tools: ['Git', 'Docker', 'VS Code', 'JetBrains suite', 'Postman'],
   os: ['Windows', 'Linux', 'MacOS'],
+  languages: ['Français', 'Anglais']
 };
 
 // Définition des composants Styled
