@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion';
 import styled from 'styled-components';
 import FloatingElements from './FloatingElements';
-import { Languages } from 'lucide-react';
 
 const skills = {
   dev: ['Laravel', 'React', 'Tailwind CSS', 'Next.js', 'Symfony'],
