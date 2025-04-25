@@ -16,6 +16,7 @@
     "animejs": "^4.0.1",
     "framer-motion": "^12.7.4",
     "lucide-react": "^0.501.0",
+    "my_portfolio": "file:",
     "next": "15.3.1",
     "nodemailer": "^6.10.1",
     "react": "^19.0.0",
